@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	color: yellow;
+	font-weight: bold;
+	font-style: italic;
+}
+
+body {
+	background: url("https://cms.splendidtable.org/sites/default/files/styles/w2000/public/North_Carolina_Dipped_Fried_Chicken-Keller-%26-Keller-%282%29-LEDE.jpg?itok=3eB2koQK");
+}
+
+ .row {
+ 	width: 100%;
+ }
+
+ p {
+ 	position: relative;
+ }
+ div.floating1 {
+ 	width: 20%;
+ 	border: 3px solid black;
+ 	outline-style: dotted;
+ 	outline-color: grey;
+ 	background-color: blue;
+ 	position: absolute;
+ 	top: 0;
+ 	right: 0;
+ 	padding: 10px;
+ }
+
+div.floating2 {
+	width: 20%;
+ 	border: 3px solid black;
+ 	outline-style: dotted;
+ 	outline-color: grey;
+ 	background-color: yellow;
+ 	position: absolute;
+ 	top: 0;
+ 	right: 0;
+ 	padding: 10px;
+}
+
+div.floating3 {
+	width: 20%;
+ 	border: 3px solid black;
+ 	outline-style: dotted;
+ 	outline-color: grey;
+ 	background-color: green;
+ 	position: absolute;
+ 	top: 0;
+ 	right: 0;
+ 	padding: 10px;
+}
+
+ .text-writing {
+ 	text-transform: uppercase;
+ 	text-shadow: 3px 2px grey;
+ 	position: relative;
+ 	margin: 30px;
+ 	top: 30px;
+ }
+
+ @media (min-width: 992px) {
+ .col-lg-4 {
+  background-color: red;
+  width: 30%;
+  border: 2px solid black;
+  height: 500px;
+  float: left;
+  margin: 20px;
+  position: relative;
+  overflow: auto;
+ }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+  background-color: red;
+  width: 45%;
+  border: 2px solid black;
+  height: 500px;
+  float: left;
+  margin: 20px;
+  position: relative;
+  overflow: auto;
+ }
+
+ 	.col-md-12 {
+  background-color: red;
+  width: 100%;
+  border: 2px solid black;
+  height: 500px;
+  float: left;
+  margin: 10px;
+  position: relative;
+  overflow: auto;
+ }
+
+}
+
+@media (max-width: 767px) {
+ .col-ld-12 {
+ 	background-color: red;
+  width: 100%;
+  border: 2px solid black;
+  height: 500px;
+  float: left;
+  margin: 10px;
+  position: relative;
+  overflow: auto;
+ }
+}
